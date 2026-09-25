@@ -1,20 +1,20 @@
 class Asanagidb < Formula
   desc "High-performance graph memory engine in Zig with native Z3 formal verification"
   homepage "https://asanagi.ai"
-  version "2.2.2"
+  version "2.3.0"
   license "Commercial"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://asanagi.ai/downloads/asanagidb-v2.2.2-darwin-arm64.tar.gz"
-      sha256 "84f4d0fec599a5a309bef60ef04045d249d46af6bcc161879bba8496f4d30464"
+      url "https://asanagi.ai/downloads/asanagidb-v2.3.0-darwin-arm64.tar.gz"
+      sha256 "91351aaa83d6d86d0bec3076a07e658be7d0eb1bd08200a0c297a4ed8a3283b7"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://asanagi.ai/downloads/asanagidb-v2.2.2-linux-x86_64.tar.gz"
-      sha256 "235779a8b1dcab15a7f061792c7546ff68fab57785a4f64b9061bf91496a8147"
+      url "https://asanagi.ai/downloads/asanagidb-v2.3.0-linux-x86_64.tar.gz"
+      sha256 "d48344208fbcaffb880fa3ebec995ef357eaa71a0c101fcb6c1456ae26ef0637"
     end
   end
 
