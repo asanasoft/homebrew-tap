@@ -1,6 +1,6 @@
 # Homebrew Tap for AsanagiDB Suite
 
-Official Homebrew tap for installing the **AsanagiDB** suite on macOS and Linux.
+Official Homebrew tap for installing the **AsanagiDB** suite on macOS (Apple Silicon) and Linux (x86_64, and 64-bit ARM such as a Raspberry Pi).
 
 ## Included Binaries
 
@@ -13,7 +13,7 @@ Official Homebrew tap for installing the **AsanagiDB** suite on macOS and Linux.
 
 ```bash
 # Add the AsanaSoft tap repository:
-brew tap asanasoft/tap https://git.asanasoft.com/alopez/homebrew-tap
+brew tap asanasoft/tap https://git.asanasoft.com/asanagi/homebrew-tap
 
 # Install the AsanagiDB suite:
 brew install asanagidb
